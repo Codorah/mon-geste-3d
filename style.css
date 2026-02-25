@@ -20,3 +20,12 @@ body {
   height: 100%;
   display: block;
 }
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#hand_canvas { pointer-events: none; z-index: 10; } /* Par-dessus la 3D */
